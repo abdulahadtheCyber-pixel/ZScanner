@@ -1,7 +1,7 @@
 
 # ZScanner - Professional Vulnerability Scanner
 
-![ZScanner Screenshot](screenshot.PNG)
+![ZScanner Screenshot](screenshot.png)
 
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/zscanner-pro?style=for-the-badge&logo=github)](https://github.com/yourusername/zscanner-pro/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/zscanner-pro?style=for-the-badge&logo=github)](https://github.com/yourusername/zscanner-pro/network)
@@ -11,16 +11,16 @@
 
 </div>
 
-## 🚀 What is ZScanner Pro?
+## 🚀 What is ZScanner?
 
-**ZScanner Pro** is a **professional-grade vulnerability scanner** designed for cybersecurity professionals, penetration testers, and red teams. Built specifically for **Kali Linux**, it delivers **Nessus-level reporting** with modern charts, CVSS v3.1 scoring, and enterprise-grade PDF reports - all from a **single IP input**.
+**ZScanner** is a **professional-grade vulnerability scanner** designed for cybersecurity professionals, penetration testers, and red teams. Built specifically for **Kali Linux**, it delivers **Nessus-level reporting** with modern charts, CVSS v3.1 scoring, and enterprise-grade PDF reports - all from a **single IP input**.
 Built a Python-based network scanner using multi-threading and socket programming, improving scan efficiency by 65% through concurrent vulnerability checks. Automated CVSS v3.1 scoring via NIST NVD API and PDF report generation, reducing assessment time from 2 hours to 5 minutes.
 <div align="center">
 > **No complex commands. Just enter the IP and get professional results.**
 
 ## ✨ Key Features
 
-| Feature | ✅ ZScanner Pro | 🟡 Commercial Tools |
+| Feature | ✅ ZScanner  | 🟡 Commercial Tools |
 |---------|----------------|-------------------|
 | **Interactive UI** | ✅ Single IP input | ❌ Complex CLI |
 | **PDF Reports** | ✅ Nessus-style w/ Graphs | ✅ |
@@ -47,12 +47,12 @@ Built a Python-based network scanner using multi-threading and socket programmin
 ## 🛠️ Quick Start (2 Minutes)
 1. Clone & Install
 ```bash
-git clone https://github.com/yourusername/zscanner-pro.git
-cd zscanner-pro
+git clone https://github.com/yourusername/zscanner.git
+cd zscanner
 chmod +x zscanner.py
 sudo ./zscanner.py
 ```
 2. Run (Just Enter IP!)
-python3 zscanner_pro.py
+python3 zscanner.py
 🎯 Enter Target IP: 10.0.0.1
 # Professional scan + PDF report generated automatically!
